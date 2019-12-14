@@ -1,2 +1,2 @@
 # Documentation #
-Basic plugin [documentation](https://github.com/ModPlus-Software/Documentation/wiki)
+General [documentation](https://github.com/ModPlus-Software/Documentation/wiki)
