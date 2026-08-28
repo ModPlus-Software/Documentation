@@ -1,0 +1,105 @@
+site_name: Документация ModPlus
+site_description: Справочник по разработке плагинов ModPlus
+site_url: https://modplus-software.github.io/Documentation/
+copyright: ModPlus Software
+
+repo_url: https://github.com/ModPlus-Software/Documentation
+repo_name: ModPlus-Software/Documentation
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: ru
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+
+plugins:
+  - search:
+      lang: ru
+      separator: '[\s​\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+nav:
+  - Оглавление: index.md
+  - Разработка:
+      - development/multiple-tasks.md
+      - development/plugin-versioning.md
+      - development/plugin-descriptions.md
+      - development/weeek-tasks.md
+      - development/wpf-configuration.md
+      - development/user-settings.md
+      - development/logging-service.md
+      - development/result-service.md
+  - UX/UI:
+      - ux-ui/converters.md
+      - ux-ui/scroll-passthrough.md
+      - ux-ui/button-with-options.md
+  - Тестирование и релиз:
+      - release/release-check.md
+      - release/demo-videos.md
+      - release/changelog.md
+  - Работа в IDE:
+      - ide/resharper.md
+      - ide/templates.md
+  - Прочее:
+      - misc/closedxml.md
