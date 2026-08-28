@@ -12,6 +12,9 @@ theme:
   language: ru
   icon:
     repo: fontawesome/brands/github
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.instant
     - navigation.tracking
@@ -27,14 +30,14 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue grey
+      primary: white
       accent: indigo
       toggle:
         icon: material/weather-night
         name: Тёмная тема
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
+      primary: black
       accent: indigo
       toggle:
         icon: material/weather-sunny
@@ -103,3 +106,6 @@ nav:
       - ide/templates.md
   - Прочее:
       - misc/closedxml.md
+
+extra_css:
+  - assets/theme.css

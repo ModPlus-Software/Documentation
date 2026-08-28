@@ -1,0 +1,20 @@
+
+/* --- плотность и типографика --- */
+html { font-size: 112.5%; }
+@media screen and (min-width: 100em) { html { font-size: 112.5%; } }
+@media screen and (min-width: 125em) { html { font-size: 112.5%; } }
+
+.md-grid { max-width: 68rem; }
+.md-typeset { font-size: .78rem; line-height: 1.65; }
+.md-typeset h1 { font-size: 1.45rem; font-weight: 600; letter-spacing: -.01em; margin-bottom: 1rem; }
+.md-typeset h2 { font-size: 1.1rem; font-weight: 600; margin-top: 1.9em; letter-spacing: -.005em; }
+.md-typeset h3 { font-size: .92rem; font-weight: 600; }
+.md-typeset h4 { font-size: .82rem; }
+.md-typeset code { font-size: .82em; }
+.md-typeset pre > code { font-size: .74rem; line-height: 1.5; }
+.md-typeset table:not([class]) { font-size: .72rem; }
+.md-nav { font-size: .68rem; }
+.md-nav__title { font-size: .68rem; }
+.md-header__title { font-size: .8rem; }
+.md-typeset blockquote { border-left-width: 2px; }
+.md-typeset img { border-radius: 3px; }
