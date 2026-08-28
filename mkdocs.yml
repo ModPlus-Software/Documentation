@@ -97,6 +97,9 @@ nav:
       - ux-ui/converters.md
       - ux-ui/scroll-passthrough.md
       - ux-ui/button-with-options.md
+      - ux-ui/resource-keys.md
+      - ux-ui/margins.md
+      - ux-ui/size-extension.md
   - Тестирование и релиз:
       - release/release-check.md
       - release/demo-videos.md

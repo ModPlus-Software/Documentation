@@ -28,6 +28,12 @@
 
 [Компонент ButtonWithOptionsControl](ux-ui/button-with-options.md)
 
+[Новые ключи ресурсов](ux-ui/resource-keys.md)
+
+[Отступы: ресурсы Margin и расширение MarginExtension](ux-ui/margins.md)
+
+[Размеры: расширение SizeExtension](ux-ui/size-extension.md)
+
 ## Тестирование и подготовка к релизу
 
 [Проверка релизной версии плагина](release/release-check.md)
