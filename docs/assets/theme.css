@@ -18,3 +18,33 @@ html { font-size: 112.5%; }
 .md-header__title { font-size: .8rem; }
 .md-typeset blockquote { border-left-width: 2px; }
 .md-typeset img { border-radius: 3px; }
+
+/* --- боковое меню: заголовки разделов явно отличаются от ссылок --- */
+.md-nav--primary .md-nav__item--section > .md-nav__link {
+  font-size: .58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: var(--md-default-fg-color--light);
+  opacity: .75;
+  cursor: default;
+  margin-top: 1.35rem;
+  margin-bottom: .2rem;
+  padding-top: .6rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-nav--primary .md-nav__item--section > .md-nav__link:hover {
+  color: var(--md-default-fg-color--light);
+}
+.md-nav--primary a.md-nav__link { color: var(--md-default-fg-color); }
+.md-nav--primary a.md-nav__link:hover { color: var(--md-accent-fg-color); }
+.md-nav--primary a.md-nav__link--active {
+  color: var(--md-typeset-a-color);
+  font-weight: 600;
+}
+
+/* на десктопе название сайта над меню дублирует шапку — убираем.
+   В мобильном меню (drawer) этот же элемент нужен, поэтому только на широких экранах. */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary .md-nav--primary > .md-nav__title { display: none; }
+}
