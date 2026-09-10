@@ -100,6 +100,7 @@ nav:
       - ux-ui/resource-keys.md
       - ux-ui/margins.md
       - ux-ui/size-extension.md
+      - ux-ui/combobox-filter.md
   - Тестирование и релиз:
       - release/release-check.md
       - release/demo-videos.md

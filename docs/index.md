@@ -34,6 +34,8 @@
 
 [Размеры: расширение SizeExtension](ux-ui/size-extension.md)
 
+[Поиск в выпадающем списке ComboBox](ux-ui/combobox-filter.md)
+
 ## Тестирование и подготовка к релизу
 
 [Проверка релизной версии плагина](release/release-check.md)
