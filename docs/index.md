@@ -12,7 +12,7 @@
 
 [Создание задач в задачнике (Weeek)](development/weeek-tasks.md)
 
-[Система конфигураций ModPlus для WPF‐плагинов](development/wpf-configuration.md)
+[Конфигурации плагина](development/wpf-configuration.md)
 
 [Работа с пользовательскими настройками](development/user-settings.md)
 
