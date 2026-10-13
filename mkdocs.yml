@@ -85,6 +85,7 @@ validation:
 nav:
   - Оглавление: index.md
   - Разработка:
+      - development/plugin-project.md
       - development/multiple-tasks.md
       - development/plugin-versioning.md
       - development/plugin-descriptions.md

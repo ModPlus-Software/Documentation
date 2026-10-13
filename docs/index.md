@@ -4,6 +4,8 @@
 
 ## Разработка
 
+[Создание проекта плагина](development/plugin-project.md)
+
 [Работа с несколькими задачами](development/multiple-tasks.md)
 
 [Версионирование плагинов](development/plugin-versioning.md)
